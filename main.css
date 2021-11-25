@@ -26,7 +26,14 @@ header a{
 }
 a:hover{ color: #FF8000;}
 
-
+h1{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+h2{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
 
 
 
@@ -73,6 +80,73 @@ a.brand{
     font-size: 3rem;
     font-weight: bold;
 }
+
+
+/* 
+IMAGES
+*/
+img{
+    border-radius: .5rem;
+}
+
+img.medium{
+    width: 100%;
+    max-width: 29rem;
+}
+
+/* CARTAO */
+
+.card{
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #f8f8f8;
+    border-radius: .5rem;
+    margin: 1rem;
+}
+
+.card-body{
+    padding: 1rem;
+}
+
+.card-body > *{
+ margin-bottom: 0.5rem;
+}
+
+.price{
+    font-size: 2rem;
+}
+
+/* Rating */
+
+.rating span{
+    color: #FF8000;
+    margin: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
