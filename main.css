@@ -1,0 +1,39 @@
+html{
+    font-size: 66.5%; /*16 x .65%  = 10px  = 1rem*/
+}
+
+body{
+    margin: 0;
+    background:#ddd;
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: Helvetica,Arial, sans-serif;
+}
+
+
+/* LAYOUT */
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+
+    grid-template-columns:1fr; /* uma unica coluna*/
+    grid-template-rows: 5rem 1fr 5rem; /*80px em cima 80 px em baixo*/
+    height: 100%;
+}
+
+header{
+grid-area: header;
+background-color: #203040;
+}
+main{
+    grid-area: main;
+    padding: 1rem;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #203040;
+}
